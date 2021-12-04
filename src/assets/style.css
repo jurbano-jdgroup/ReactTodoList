@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(246,247,248);
+}
+
+.custom-shadow {
+    box-shadow: 0px 12px 16px rgba(160, 155, 155, 0.3);
+}
+
+.custom-box {
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.todo-item {
+    border-left: 4px solid rgb(178, 183, 220);
+}
+
+.calendar-td-div {
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-td-div div:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1px;
+    padding: 2px;
+}
+
+.calendar-td-div.current {
+    background-color: #DCDFF5;
+    color: #184E8D;
+    border-radius: 4px;
+}
